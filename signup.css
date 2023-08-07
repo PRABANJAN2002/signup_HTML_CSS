@@ -2,7 +2,7 @@ body{
     margin:0;
     padding:0;
     font-family: sans-serif;
-    background-image: url(/img/sky.jpg);
+    background-image: url(skys.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -13,10 +13,12 @@ body{
     padding: 20px;
     margin: 8% auto 0;
     text-align: center;
+    border:2px solid black;
+    backdrop-filter: blur(25px);
 }
 
 .sign-up-form h1{
-    color: #1c8adb;
+    color: #0c0c0c;
     margin-bottom: 30px;
 }
 
